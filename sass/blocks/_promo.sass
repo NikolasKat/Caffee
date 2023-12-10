@@ -1,0 +1,68 @@
+.promo
+    position: relative
+    min-height: 430px
+    padding-top: 65px
+    padding-bottom: 65px
+    background-color: $bg1
+    z-index: -1
+    &_h335
+        min-height: 335px
+    &__wrapper
+        display: flex
+        justify-content: space-between
+    &__description
+        hr
+            display: block
+            width: 240px
+            height: 3px
+            margin-top: 18px
+            margin-bottom: 18px
+            background-color:#ff4217
+    &__photos
+        position: absolute
+        top: -105px
+        right: 100px
+        display: grid
+        grid-template-columns: repeat(4, 1fr)
+        column-gap: 20px
+    &__item
+        display: grid
+        grid-template-columns: 1fr
+        row-gap: 20px
+    &__profile
+        display: flex
+        margin-top: 32px
+        &__text
+            margin-left: 8px
+        &__title
+            color: #C7BAB3
+            font-family: Inter
+            font-size: 18px
+            font-weight: 600
+        &__subtitle
+            color: #756A67
+            font-family: Inter
+            font-size: 14px
+            font-weight: 500
+    &__details
+        width: 495px
+        min-height: 255px
+        padding: 24px
+        background-color: #1F1517
+        &__text
+            display: flex
+            justify-content: space-between
+        &__line
+            display: flex
+            justify-content: space-between
+            hr
+                display: block
+                width: 105px
+                height: 5px
+                border-radius: 4px
+                background: #4b342e
+            #active
+                background: #ef4d29
+
+
+
