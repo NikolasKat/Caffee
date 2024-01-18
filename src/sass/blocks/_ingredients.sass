@@ -1,0 +1,60 @@
+.ingredients
+    min-height: 400px
+    padding-top: 32px
+    padding-bottom: 32px
+    background-color: #1F1517
+    &__wrapper
+        display: flex
+    &__etaps
+        max-width: 765px
+        min-height: 310px
+        padding: 20px
+        padding-bottom: 0px
+        border-radius: 15px
+        margin-right: 32px
+        background-color: #241A1C
+        &__list
+            position: relative
+            margin-top: 32px
+            margin-left: 20px
+            list-style-type: none
+            li
+                margin-bottom: 24px
+                color: #C7BAB3
+                font-family: Inter
+                font-size: 16px
+                font-weight: 300
+                line-height: 164%
+                &::after
+                    content: ''
+                    position: absolute
+                    display: block
+                    width: 32px
+                    height: 32px
+                    margin-top: -28px
+                    left: -19px
+                    padding-top: 3px
+                    border-radius: 8px
+                    text-align: center
+                    font-weight: 800
+                    background: #A45A49
+            li#first
+                &::after
+                    content: '1'
+            li#second
+                &::after
+                    content: '2'
+            li#third
+                &::after
+                    content: '3'
+            li#forth
+                &::after
+                    content: '4'
+            
+    &__checks
+        max-width: 325px
+        height: 285px
+        border-radius: 15px
+        background-color: #241A1C
+        padding: 20px
+

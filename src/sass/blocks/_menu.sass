@@ -1,0 +1,43 @@
+.menu
+    padding-top: 50px
+    padding-bottom: 50px
+    min-height: 500px
+    background-color: $bg1
+    .blocks-wrapper
+        display: grid
+        grid-template-columns: repeat(2, 1fr)
+        gap: 32px
+    .block-element
+        width: 100%
+        min-height: 220px
+        border-radius: 13px
+        padding: 24px
+        font-family: Inter
+        line-height: 123%
+        text-align: justify
+        color: #756A67
+        background-color: $bg2
+        &__side
+            display: none
+            &_active
+                display: block
+        &__flex
+            display: flex
+            justify-content: space-between
+            .text
+                font-size: 14px
+                line-height: 123%
+
+            .photo
+                margin-right: 10px
+                img
+                    border-radius: 15px
+.button-menu
+    margin-top: 8px
+    width: 140px
+    height: 40px
+    border: none
+    border-radius: 5px
+    font-size: 13px
+    background-color: #838ea1
+    color: $text-color-yellow
